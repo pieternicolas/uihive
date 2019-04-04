@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "release": "./release.sh",
+    "release": "./scripts/release.sh",
     "lmao": "jq -r '.name' package.json"
   },
   "author": "Nicolas Pieter (nicolaspieter@yahoo.com)",
